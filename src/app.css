@@ -1,0 +1,43 @@
+:root {
+	--color-background: #F6F2EA;
+	/* Off-White Background */
+	--color-text: #4B4446;
+	/* Primary Dark Text */
+
+	--color-primary: #D4A3A1;
+	/* Primary Accent */
+	--color-secondary: #BACCAA;
+	/* Secondary Dark Accent */
+	--color-highlight: #FCE9C9;
+	/* Highlight/Success */
+
+}
+
+body {
+	background-color: var(--color-background);
+	color: var(--color-text);
+	font-family: serif, 'Georgia', 'Times New Roman', sans-serif;
+}
+
+button {
+	background-color: var(--color-primary);
+	color: var(--color-text);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 5px;
+	cursor: pointer;
+	font-family: serif, 'Georgia', 'Times New Roman', sans-serif;
+}
+
+
+
+input {
+	color: var(--color-text);
+	border-radius: 4px;
+	font-size: 16px;
+	border: none;
+	padding: 10px 20px;
+	margin: 5px;
+}
