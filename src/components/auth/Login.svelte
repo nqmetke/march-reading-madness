@@ -32,7 +32,7 @@
 				{ email: email, password: password },
 				{
 					onSuccess: (ctx) => {
-						window.location.href = "/app/dashboard";
+						window.location.href = "/app/home";
 					},
 					onError: (ctx) => {
 						error = ctx.error.message || "Login failed";
@@ -55,8 +55,7 @@
 				},
 				{
 					onSuccess: (_) => {
-						// optional callback
-						goto("/app/dashboard");
+						window.location.href = "/app/dashboard";
 					},
 					onError: (ctx) => {
 						error = ctx.error.message || "Sign Up failed";
